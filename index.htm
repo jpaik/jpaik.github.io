@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--Created using Bootstrap framework-->
+<!--Copyright James Paik 2013-2014-->
+<html lang="en">
+	<head>
+		<title>James Paik | Gamer</title>
+		<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+		<meta name= "author" content = "James Paik">
+		<meta name="description" content="James Paik | Gamer, Programmer, and Game Developer.">
+		<meta name="keywords" content="James Paik, Gamer, Jpaik, jpaik123, jpaik14, jpaik, Paik, jpaik.tk, james paik">
+		<link href="img/favicon.ico" rel="shortcut icon">
+		<link href = "css/bootstrap.min.css" rel= "stylesheet">
+		<link href = "css/styles.css" rel= "stylesheet">
+		<link href = "css/mobile.css" media="screen and (max-width: 768px)" rel="stylesheet"/>
+	</head>
+	
+	<body>
+		<div class = "navbar navbar-inverse navbar-static-top">
+			<div class = "container">
+				<a href="index.htm" class="navbar-brand">James Paik</a>
+				
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class ="icon-bar"></span>
+					<span class ="icon-bar"></span>
+					<span class ="icon-bar"></span>	
+				</button>
+				
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+						<li class = "active"><a href ="index.htm">Home</a></li>
+						<li><a href ="blog">Blog</a></li>
+						<li><a href="stream.htm">Stream</a></li>
+						<li class = "dropdown">
+							<a href ="#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class ="caret"></b> </a>
+							<ul class = "dropdown-menu">
+								<li><a href="https://www.facebook.com/jpaik14" target="_blank">Facebook</a></li>
+								<li><a href="https://plus.google.com/u/0/+JamesPaik14/posts" target="_blank">Google+</a></li>
+								<li><a href="http://steamcommunity.com/id/jpaik123" target="_blank">Steam</a></li>
+							</ul>
+						</li>
+						<li><a href ="about.htm">About</a></li>
+						<li><a href ="#contact" data-toggle = "modal">Contact</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--Large Context-->
+		<div class = "container" style="padding-top:10px">
+			<div class = "leaderboard">	
+				<div class = "jumbotron text-center">
+					<h1>James Paik</h1>
+					<h2><a href="https://www.youtube.com/channel/UC98jvf-NPSuABWRCirnd5xQ" target="_blank" style="color: #000000">Video Games</a> | <a href="http://github.com/jpaik" target="_blank" style="color: #000000">Computer Science</a> | <a href="blog/some-of-my-work/" target="_blank" style="color: #000000">Software Engineer</a></h2>
+					<a href="stream.htm" class = "btn btn-default">View Stream</a>
+					<a href="#contact" data-toggle = "modal" class = "btn btn-primary">Contact Me</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--Grid Text (For the articles and such)-->
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-md-3">
+					<div class = "panel panel-info">
+						<div class = "panel-heading">
+						<!--sm, md, or lg| 12 boxes in total, using 3-->
+							<h3><a href="http://www.github.com/jpaik" target="_blank">Visit my Github!</a></h3>
+						</div>
+						<div class = "panel-body">
+							<br />
+							<p>I made a couple games over the past few years. I released the source codes for everything I made! The best thing I made was Spaceball Madness, a game I made for my friend's birthday present.</p>
+							<a href="blog/spaceball-madness/" class = "btn btn-info">Read more!</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class = "panel panel-info">
+						<div class = "panel-heading">
+							<h3>Some of my Work</h3>
+						</div>
+					<div class = "panel-body">
+						<br />
+						<p>
+							Even though I am only in High School, I worked on some side projects. These projects range from learning how to code to actually implementing code onto something.
+							I created a couple websites, and one of which gets over 6,000 views per day! Then there are the games I tried to make using Java that came out pretty well!
+						</p>
+						<a href="blog/some-of-my-work/" class = "btn btn-info">Read more!</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "col-md-3"> 
+					<div class = "panel panel-info">
+						<div class = "panel-heading">
+							<h3>Building my computer!</h3>
+						</div>	
+						<div class = "panel-body">
+							<br />
+							<p> 
+								I bought and built a new computer early in December. Well, I bought it on Black Friday, but built it a week later because of school work.
+								Building it was pretty good, but updating it took a couple of days. But so far, so good!
+							</p>
+							<a href="blog/new-computer/" class = "btn btn-info">Read more!</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "col-md-3">
+					<div class = "panel panel-info">
+						<div class = "panel-heading">
+							<h3>My Portfolio</h3>
+						</div>
+						<div class = "panel-body">
+							<br />
+							<p>Hey there! I would love to be a software engineer as I get older. But I have created many things in the mean time.</p>
+							<a href="about.htm" class = "btn btn-info">View Portfolio</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--Footer Code-->
+		<div id="footercode" class = "navbar navbar-default navbar-fixed-bottom">
+			<div class = "container">
+				<p class = "navbar-text pull-left">Copyright 2014 James Paik</p>
+				<a href= "http://trythefun.weebly.com" target="_blank" class = "navbar-btn btn-success btn pull-right">TryTheFun</a>	
+			</div>	
+		</div>
+		
+		<!--Contact Me Pop out-->
+		<div class = "modal fade" id = "contact" role = "dialog">
+			<div class = "modal-dialog">
+				<div class = "modal-content">
+					<form class = "form-horizontal" method="post" action="send_contact.php">
+						<div class = "modal-header">
+							<h4>Contact Me!</h4>
+						</div>
+
+						<div class = "modal-body">
+							<div class = "form-group">
+								<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+								<div class = "col-lg-10">
+									<input type = "text" class = "form-control" name = "contact-name" placeholder = "Full Name">
+								</div>
+							</div>
+							
+							<div class = "form-group">
+								<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+								<div class = "col-lg-10">
+									<input type = "email" class = "form-control" name = "contact-email" placeholder = "you@example.com">
+								</div>
+							</div>
+							
+							<div class = "form-group">
+								<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+								<div class = "col-lg-10">
+									<textarea name="contact-msg" class = "form-control" rows= "8"></textarea>
+								</div>
+							</div>
+							
+						</div>
+					
+						<div class = "modal-footer">
+							<a class = "btn btn-default" data-dismiss = "modal">Cancel</a>
+							<button class ="btn btn-primary" type = "submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src = "js/bootstrap.js"></script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-47246692-1']);
+			_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+		
+		
+	
+	</body>
+</html>

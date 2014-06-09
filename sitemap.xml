@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://jpaik.tk/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/index.htm</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/stream.htm</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/about.htm</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/some-of-my-work/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/spaceball-madness/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/new-computer/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/youtube-gaming-channel/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/category/youtube/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/author/jpaik123/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/game-development-starts/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/category/development/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/category/projects/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/snow-days/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/category/random/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://jpaik.tk/blog/category/uncategorized/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

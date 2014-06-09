@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--Created using Bootstrap framework-->
+<!--Copyright James Paik 2013-2014-->
+<html lang="en">
+	<head>
+		<title>James Paik | Gamer</title>
+		<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+		<meta name= "author" content = "James Paik">
+		<link href="img/favicon.ico" rel="shortcut icon">
+		<link href = "css/bootstrap.min.css" rel= "stylesheet">
+		<link href = "css/styles.css" rel= "stylesheet">
+		<link href = "css/mobile.css" media="screen and (max-width: 768px)" rel="stylesheet"/>
+	</head>
+	
+	<body>
+		<div class = "navbar navbar-inverse navbar-static-top">
+			<div class = "container">
+				<a href="index.htm" class="navbar-brand">James Paik</a>
+				
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class ="icon-bar"></span>
+					<span class ="icon-bar"></span>
+					<span class ="icon-bar"></span>	
+				</button>
+				
+				<div class = "collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+						<li><a href ="index.htm">Home</a></li>
+						<li><a href ="blog">Blog</a></li>
+						<li class="active"><a href="stream.htm">Stream</a></li>
+						<li class = "dropdown">
+							<a href ="#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class ="caret"></b> </a>
+							<ul class = "dropdown-menu">
+								<li><a href="https://www.facebook.com/jpaik14" target="_blank">Facebook</a></li>
+								<li><a href="https://plus.google.com/u/0/+JamesPaik14/posts" target="_blank">Google+</a></li>
+								<li><a href="http://steamcommunity.com/id/jpaik123" target="_blank">Steam</a></li>
+							</ul>
+						</li>
+						<li><a href ="about.htm">About</a></li>
+						<li><a href ="#contact" data-toggle = "modal">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container text-center">
+			<br />
+			<object type="application/x-shockwave-flash" height="768" width="1280" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=jpaik123" bgcolor="#000000">
+				<param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" />
+				<param name="allowNetworking" value="all" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
+				<param name="flashvars" value="hostname=www.twitch.tv&channel=jpaik123&auto_play=true&start_volume=25" />
+			</object>
+			
+		</div>
+		
+		<!--Footer Code-->
+		<div id="footercode" class = "navbar navbar-default navbar-fixed-bottom">
+			<div class = "container">
+				<p class = "navbar-text pull-left">Copyright 2014 James Paik</p>
+				<a href= "http://trythefun.weebly.com" target="_blank" class = "navbar-btn btn-success btn pull-right">TryTheFun</a>	
+			</div>	
+		</div>
+		
+		<!--Contact Me Pop out-->
+		<div class = "modal fade" id = "contact" role = "dialog">
+			<div class = "modal-dialog">
+				<div class = "modal-content">
+					<form class = "form-horizontal" method="post" action="send_contact.php">
+						<div class = "modal-header">
+							<h4>Contact Me!</h4>
+						</div>
+
+						<div class = "modal-body">
+							<div class = "form-group">
+								<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+								<div class = "col-lg-10">
+									<input type = "text" class = "form-control" name = "contact-name" placeholder = "Full Name">
+								</div>
+							</div>
+							
+							<div class = "form-group">
+								<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+								<div class = "col-lg-10">
+									<input type = "email" class = "form-control" name = "contact-email" placeholder = "you@example.com">
+								</div>
+							</div>
+							
+							<div class = "form-group">
+								<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+								<div class = "col-lg-10">
+									<textarea name="contact-msg" class = "form-control" rows= "8"></textarea>
+								</div>
+							</div>
+							
+						</div>
+					
+						<div class = "modal-footer">
+							<a class = "btn btn-default" data-dismiss = "modal">Cancel</a>
+							<button class ="btn btn-primary" type = "submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	
+		<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src = "js/bootstrap.js"></script>
+	
+	</body>
+</html>

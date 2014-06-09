@@ -1,0 +1,25 @@
+/*Change the navbar color and size... So that it's not so big*/
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #114B7B;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 40px;
+    height: 40px;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #footercode{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.navbar-fixed-bottom {
+	position: fixed;
+}

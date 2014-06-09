@@ -1,0 +1,139 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700');
+
+body {
+	margin-bottom: 60px;
+	background-color: #F0F0F0;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+hr{
+	border-top: 1px solid #c8c8c8;
+}
+
+.panel-body {
+	padding-top:0;
+}
+
+.featuredImg {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.leaderboard {  
+	background-image: url('../img/fadeblue.jpg');  
+	background-size: 100%;
+	display: compact;
+	background-repeat: no-repeat;  
+	
+}  
+.leaderboard h1 {   
+	line-height: 1;  
+	letter-spacing: -1px;  
+	color:#000066;  
+}  
+
+.leaderboard p {  
+	font-size: 18px;
+	font-weight: 200;  
+	line-height: 27px;  
+}
+
+.jumbotron {
+	background-color: transparent;
+
+}
+
+.panel-heading {
+	padding: 5px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 1px;
+	border-top-left-radius: 1px;
+}
+
+.col-md-3 {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/*Top Navigation Bar Edits*/
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+}
+
+.navbar-inverse {
+	font-family:'Open Sans',arial,sans-serif;
+	background-color: #357EBD;
+	border-color: #66A8DE;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    -webkit-transition: color 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in;
+    -o-transition: color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	
+	color: #222222;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background-color:#114B7B;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 2px;
+	-webkit-transition: color 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in;
+    -o-transition: color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #151B54;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+
+
+/*Footer Edits*/
+.navbar-fixed-bottom {
+	position: fixed;
+	background-color: #2B3856;
+}
+
+.navbar-fixed-bottom {
+  border-width: 1px 0 0;
+}
+
+.navbar-fixed-bottom  .navbar-text{
+	color: #FFFFFF;
+}
+/*About Me Page Edits*/
+.about-me p {
+	font-size: 16px;
+}
+
+
+
